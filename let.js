@@ -70,8 +70,8 @@ var z = 50 ;
 // let carname ;
 // let can not set a default value
 
- carname = "Volvo" ; 
- let carname ; // let cannot access "carname " before initialization
- console.log(carname)
+ // carname = "Volvo" ; 
+// let carname ; // let cannot access "carname " before initialization
+// console.log(carname)
 
  
