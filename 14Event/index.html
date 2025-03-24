@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h2> Hello Event </h2>
+    
+    <button onclick="document.getElementById('demo').innerHTML = Date()">the time is </button>
+    <p id="demo"></p>
+    <button onclick="document.getElementById('time').innerHTML = Date()">time is now ?</button>
+    <p id="time"></p>
+
+    <button onclick="this.innerHTML = Date()">this time is</button>
+
+    <p>Enter your name:</p>
+<input type="text" id="nameInput" onchange="displayName()">
+
+<p id="output"></p>
+    <script src="event.js">
+        function displayName() {
+  let name = document.getElementById("nameInput").value;
+  document.getElementById("output").innerHTML = "Hello, " + name + "!";
+}
+    </script>
+</body>
+
+</html>
