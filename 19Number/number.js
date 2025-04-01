@@ -5,3 +5,5 @@ let strNum = num.toString()
 console.log(strNum)
 let num3 = 520 ;
 console.log(num3)
+let num4 = 12 ;
+console.log(num4)
