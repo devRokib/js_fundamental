@@ -97,3 +97,20 @@ let x = "10"
 let y = "10"
 let z = x + y
 console.log(z)
+
+let date = new Date()
+let dateToNumber = Number(date) // The Date() method returns the number of milliseconds since 1.1.1970.
+console.log(dateToNumber)
+console.log(typeof dateToNumber)
+
+console.log(Number(new Date("1970-01-01")))  // The Date() method returns the number of milliseconds since 1.1.1970.
+console.log(Number(new Date("2018-01-02")))
+
+let p = parseFloat("10");
+console.log(typeof p)
+
+let intNum = Number.isInteger(10);
+let notIntNum = Number.isInteger(10.5);
+
+console.log(intNum)
+console.log(notIntNum)
