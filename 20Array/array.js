@@ -121,22 +121,60 @@ console.log(flower)
 
 
 const person2 = []
-    person2[0] = "Jhon" // In JavaScript, arrays always use numbered indexes.  
-    person2[1] = "Doe"
-    person2[2] = 46
+person2[0] = "Jhon" // In JavaScript, arrays always use numbered indexes.  
+person2[1] = "Doe"
+person2[2] = 46
 
-    console.log(person2)
-    console.log(person2[0])
+console.log(person2)
+console.log(person2[0])
 
 const person3 = []
-    person3['fName'] = "jhon" // If you use named indexes, JavaScript will redefine the array to an object.
-    person3['lName'] = "doe"
-    person3['age'] = 40
-    console.log(person3)
-    console.log(person3[0])
+person3['fName'] = "jhon" // If you use named indexes, JavaScript will redefine the array to an object.
+person3['lName'] = "doe"
+person3['age'] = 40
+console.log(person3)
+console.log(person3[0])
 
-const points = new Array(100, 40,60) // create an array with three element 
-    console.log(points)
+const points = new Array(100, 40, 60) // create an array with three element 
+console.log(points)
 
 const point = new Array(20) // if i create a new array with one element it's not not calculate accurately . here are 20 undefined slot
-     console.log(point[0])
+console.log(point[0])
+
+const cityName = ['Dhaka', 'Sylhet', 'Barishal', 'Rangpur']
+let recArr = Array.isArray(cityName) // i can recognize an array with Array.isArray method
+console.log(recArr)
+
+const myObj = {
+    name: "Rakib",
+    age: 25,
+    dist: "narsingdi"
+}
+let instanceObj = (myObj instanceof Array) // recognize an array or a object use instaceof method
+console.log(instanceObj)
+
+const obj = {
+    name: "Jhon",
+    age: 40,
+    cars: [
+        {
+            carName1: "Ford",
+            models: ["Fiesta", 'Focus', 'Miustang']
+        },
+        {
+            carName2 : 'BMW' ,
+            models : ['320','X3','X5']
+        },
+        {
+            carName3 :'Fiad',
+            models : ['500','Panda']
+        }
+    ]
+}
+console.log(obj.name)
+console.log(obj.age)
+console.log(obj.cars)
+console.log(obj.cars[0])
+console.log(obj.cars[0].carName1)
+console.log(obj.cars[0].models)
+console.log(obj.cars[0].models[2])
