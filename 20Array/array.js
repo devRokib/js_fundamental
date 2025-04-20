@@ -97,3 +97,16 @@ console.log(oddAccess)
 const evenNum = [2, 4, 6, 8, 10, 12]
 let lastAccess = evenNum[evenNum.length -1] // accessing the last array element
 console.log(lastAccess)
+
+
+const countries = ['Bangladesh','China','Pakistan','Russia']
+
+countries.forEach(myCountry) // one way to loop through an array
+
+function myCountry(value){
+    console.log(value)
+}
+
+const numbers = ['one','two','three']
+      numbers.push("five")
+console.log(numbers)
