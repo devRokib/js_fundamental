@@ -73,3 +73,29 @@ console.log(arr5Copy)
 const arr6 = ['Eighteen','Nineteen','twoenty','twoentyOne']
 const arrRepeat = arr6.copyWithin(2,0,3) // copy the element of array
 console.log(arrRepeat)
+
+const myArr = [[1,2],[5,6],[3,4]]
+let arrFlat = myArr.flat() // flat array create a new array with sub array concatenate
+console.log(arrFlat)
+console.log(myArr)
+let arrLength = myArr.length
+console.log(arrLength)
+
+const FlatMap = [2,3,5, 7,8]
+const flatMapOutput = FlatMap.flatMap(num => [num, num * 2]) // flatmap first map all element and creates a new array flatening the array
+console.log(flatMapOutput)
+console.log(FlatMap)
+
+const arrSplice = ['one ','two', 'three', 'four']
+ arrSplice.splice(-1,0,"five ,six") // splice method use for add element in array and it's changes main array
+
+console.log(arrSplice)
+
+const arrSplice2 = ['realme','samsung','redmi','oppu']
+    arrSplice2.splice(0,1) // splice method can remove the element
+    console.log(arrSplice2)
+
+const month = ['jan','fev','march','april']
+let sliceMonth = month.slice(2) // slice method create an new array and it can't changes main array
+console.log(month)
+console.log(sliceMonth)
