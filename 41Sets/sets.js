@@ -78,3 +78,4 @@ for(let z of allSub){
     text4 = text4 + z
 }
 console.log(text4)
+
