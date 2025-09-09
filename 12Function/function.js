@@ -54,3 +54,13 @@ function test(){
 test()
 
 console.log(sum)
+
+function address(names , age , height , home , phone){
+    console.log(names  +  age  +  height  +  home  +  phone)
+}
+
+address('rakib', 25 , 5.3, 'Narsingdi' , 1746278199)
+address('rakib', 254 , 5.3, 'Narsingdi' , 1746278199)
+address('rakib', 251 , 5.3, 'Narsingdi' , 1746278199)
+address('rakib', 251 , 5.3, 'Narsingdi' , 1746278199)
+address('tokib', 25 , 5.3, 'Narsingdi' , 1746278199)
